@@ -1,0 +1,34 @@
+{
+  "name": "[YOUR_REPOSITORY]",
+  "version": "1.0.0",
+  "description": "A boilerplate to create npm cli package",
+  "main": "index.js",
+  "bin": {
+    "[COMMAND]": "./bin/index.js"
+  },
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js src/*.js",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[YOUR_USER]/[YOUR_REPOSITORY].git"
+  },
+  "keywords": [
+    "npm",
+    "cli",
+    "boilerplate"
+  ],
+  "author": "[YOUR_USER] <[YOUR_EMAIL]> ([YOUR_WEBSITE])",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/[YOUR_USER]/[YOUR_REPOSITORY]/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "husky": "^0.14.3"
+  },
+  "homepage": "https://github.com/[YOUR_USER]/[YOUR_REPOSITORY]#readme"
+}
