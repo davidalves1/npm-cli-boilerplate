@@ -7,7 +7,7 @@
     "[COMMAND]": "./bin/index.js"
   },
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js src/*.js",
+    "lint": "./node_modules/eslint/bin/eslint.js bin/*.js",
     "prepush": "npm run lint"
   },
   "repository": {
