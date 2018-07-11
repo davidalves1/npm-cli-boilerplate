@@ -1,11 +1,12 @@
 {
-  "name": "[YOUR_REPOSITORY]",
+  "name": "npm-cli-boilerplate",
   "version": "1.0.0",
   "description": "A boilerplate to create npm cli package",
   "main": "index.js",
   "bin": {
     "[COMMAND]": "./bin/index.js"
   },
+  "preferGlobal": "true",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js bin/*.js",
     "prepush": "npm run lint"
